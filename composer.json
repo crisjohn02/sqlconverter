@@ -1,0 +1,23 @@
+{
+    "name": "crisjohn02/sqlconverter",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [{
+        "name": "Cris",
+        "email": "crisjohnreytarpin@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Crisjohn02\\Sqlconverter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Crisjohn02\\Sqlconverter\\ServiceProvider"
+            ]
+        }
+    }
+}
